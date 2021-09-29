@@ -3,9 +3,10 @@ package com.fundamentosplatzi.springboot.fundamentos.component;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ComponentTwoImplement implements ComponentDependecy{
+public class ComponentImplement implements ComponentDependecy {
     @Override
     public void saludar() {
-        System.out.println("Hola compañero desde mi componente 2");
-    }
+        System.out.println("Hola Mundo desde mi componente");
+
+        }
 }
